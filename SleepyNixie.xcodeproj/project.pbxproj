@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FB9D5D7174DCEA600D970BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD92A0174B380A00FD4F36 /* Cocoa.framework */; };
+		4FB9D5D8174DCEA600D970BF /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD92A2174B380A00FD4F36 /* ScreenSaver.framework */; };
+		4FB9D5DE174DCEA600D970BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FB9D5DC174DCEA600D970BF /* InfoPlist.strings */; };
+		4FB9D5E2174DCEA600D970BF /* SleepyNixieSLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9D5E1174DCEA600D970BF /* SleepyNixieSLView.m */; };
+		4FB9D5FC174DD85E00D970BF /* nx-0.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92B7174B3F9E00FD4F36 /* nx-0.tiff */; };
+		4FB9D5FD174DD85E00D970BF /* nx-1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92B8174B3F9E00FD4F36 /* nx-1.tiff */; };
+		4FB9D5FE174DD85E00D970BF /* nx-2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92B9174B3F9E00FD4F36 /* nx-2.tiff */; };
+		4FB9D5FF174DD85E00D970BF /* nx-3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BA174B3F9E00FD4F36 /* nx-3.tiff */; };
+		4FB9D600174DD85E00D970BF /* nx-4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BB174B3F9E00FD4F36 /* nx-4.tiff */; };
+		4FB9D601174DD85E00D970BF /* nx-5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BC174B3F9E00FD4F36 /* nx-5.tiff */; };
+		4FB9D602174DD85E00D970BF /* nx-6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BD174B3F9E00FD4F36 /* nx-6.tiff */; };
+		4FB9D603174DD85E00D970BF /* nx-7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BE174B3F9E00FD4F36 /* nx-7.tiff */; };
+		4FB9D604174DD85E00D970BF /* nx-8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BF174B3F9E00FD4F36 /* nx-8.tiff */; };
+		4FB9D605174DD85E00D970BF /* nx-9.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92C0174B3F9E00FD4F36 /* nx-9.tiff */; };
 		4FCD92A1174B380A00FD4F36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD92A0174B380A00FD4F36 /* Cocoa.framework */; };
 		4FCD92A3174B380A00FD4F36 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD92A2174B380A00FD4F36 /* ScreenSaver.framework */; };
 		4FCD92AD174B380A00FD4F36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92AB174B380A00FD4F36 /* InfoPlist.strings */; };
@@ -24,6 +38,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FB9D5D6174DCEA600D970BF /* SleepyNixieSL.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyNixieSL.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB9D5DB174DCEA600D970BF /* SleepyNixieSL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SleepyNixieSL-Info.plist"; sourceTree = "<group>"; };
+		4FB9D5DD174DCEA600D970BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FB9D5DF174DCEA600D970BF /* SleepyNixieSL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SleepyNixieSL-Prefix.pch"; sourceTree = "<group>"; };
+		4FB9D5E0174DCEA600D970BF /* SleepyNixieSLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepyNixieSLView.h; sourceTree = "<group>"; };
+		4FB9D5E1174DCEA600D970BF /* SleepyNixieSLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepyNixieSLView.m; sourceTree = "<group>"; };
 		4FCD929D174B380A00FD4F36 /* SleepyNixie.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyNixie.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCD92A0174B380A00FD4F36 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4FCD92A2174B380A00FD4F36 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
@@ -48,6 +68,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4FB9D5D1174DCEA600D970BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB9D5D7174DCEA600D970BF /* Cocoa.framework in Frameworks */,
+				4FB9D5D8174DCEA600D970BF /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FCD9298174B380A00FD4F36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,10 +89,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FB9D5D9174DCEA600D970BF /* SleepyNixieSL */ = {
+			isa = PBXGroup;
+			children = (
+				4FB9D5E0174DCEA600D970BF /* SleepyNixieSLView.h */,
+				4FB9D5E1174DCEA600D970BF /* SleepyNixieSLView.m */,
+				4FB9D5DA174DCEA600D970BF /* Supporting Files */,
+			);
+			path = SleepyNixieSL;
+			sourceTree = "<group>";
+		};
+		4FB9D5DA174DCEA600D970BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FB9D5DB174DCEA600D970BF /* SleepyNixieSL-Info.plist */,
+				4FB9D5DC174DCEA600D970BF /* InfoPlist.strings */,
+				4FB9D5DF174DCEA600D970BF /* SleepyNixieSL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4FCD9292174B380A00FD4F36 = {
 			isa = PBXGroup;
 			children = (
 				4FCD92A8174B380A00FD4F36 /* SleepyNixie */,
+				4FB9D5D9174DCEA600D970BF /* SleepyNixieSL */,
+				4FCD92CB174B400F00FD4F36 /* Images */,
 				4FCD929F174B380A00FD4F36 /* Frameworks */,
 				4FCD929E174B380A00FD4F36 /* Products */,
 			);
@@ -73,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				4FCD929D174B380A00FD4F36 /* SleepyNixie.saver */,
+				4FB9D5D6174DCEA600D970BF /* SleepyNixieSL.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +154,6 @@
 			children = (
 				4FCD92AF174B380A00FD4F36 /* SleepyNixieView.h */,
 				4FCD92B0174B380A00FD4F36 /* SleepyNixieView.m */,
-				4FCD92CB174B400F00FD4F36 /* Images */,
 				4FCD92A9174B380A00FD4F36 /* Supporting Files */,
 			);
 			path = SleepyNixie;
@@ -133,11 +184,19 @@
 				4FCD92C0174B3F9E00FD4F36 /* nx-9.tiff */,
 			);
 			name = Images;
+			path = SleepyNixie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4FB9D5D2174DCEA600D970BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FCD9299174B380A00FD4F36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,6 +207,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4FB9D5D5174DCEA600D970BF /* SleepyNixieSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB9D5E5174DCEA600D970BF /* Build configuration list for PBXNativeTarget "SleepyNixieSL" */;
+			buildPhases = (
+				4FB9D5D0174DCEA600D970BF /* Sources */,
+				4FB9D5D1174DCEA600D970BF /* Frameworks */,
+				4FB9D5D2174DCEA600D970BF /* Headers */,
+				4FB9D5D3174DCEA600D970BF /* Resources */,
+				4FB9D5D4174DCEA600D970BF /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepyNixieSL;
+			productName = SleepyNixieSL;
+			productReference = 4FB9D5D6174DCEA600D970BF /* SleepyNixieSL.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
 		4FCD929C174B380A00FD4F36 /* SleepyNixie */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FCD92B4174B380A00FD4F36 /* Build configuration list for PBXNativeTarget "SleepyNixie" */;
@@ -189,11 +267,30 @@
 			projectRoot = "";
 			targets = (
 				4FCD929C174B380A00FD4F36 /* SleepyNixie */,
+				4FB9D5D5174DCEA600D970BF /* SleepyNixieSL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4FB9D5D3174DCEA600D970BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB9D5DE174DCEA600D970BF /* InfoPlist.strings in Resources */,
+				4FB9D5FC174DD85E00D970BF /* nx-0.tiff in Resources */,
+				4FB9D5FD174DD85E00D970BF /* nx-1.tiff in Resources */,
+				4FB9D5FE174DD85E00D970BF /* nx-2.tiff in Resources */,
+				4FB9D5FF174DD85E00D970BF /* nx-3.tiff in Resources */,
+				4FB9D600174DD85E00D970BF /* nx-4.tiff in Resources */,
+				4FB9D601174DD85E00D970BF /* nx-5.tiff in Resources */,
+				4FB9D602174DD85E00D970BF /* nx-6.tiff in Resources */,
+				4FB9D603174DD85E00D970BF /* nx-7.tiff in Resources */,
+				4FB9D604174DD85E00D970BF /* nx-8.tiff in Resources */,
+				4FB9D605174DD85E00D970BF /* nx-9.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FCD929A174B380A00FD4F36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +312,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
+		4FB9D5D4174DCEA600D970BF /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FCD929B174B380A00FD4F36 /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +329,14 @@
 /* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4FB9D5D0174DCEA600D970BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB9D5E2174DCEA600D970BF /* SleepyNixieSLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FCD9297174B380A00FD4F36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +348,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4FB9D5DC174DCEA600D970BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FB9D5DD174DCEA600D970BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		4FCD92AB174B380A00FD4F36 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -247,6 +367,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4FB9D5E3174DCEA600D970BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepyNixieSL/SleepyNixieSL-Prefix.pch";
+				INFOPLIST_FILE = "SleepyNixieSL/SleepyNixieSL-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		4FB9D5E4174DCEA600D970BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SleepyNixieSL/SleepyNixieSL-Prefix.pch";
+				INFOPLIST_FILE = "SleepyNixieSL/SleepyNixieSL-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
 		4FCD92B2174B380A00FD4F36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -276,7 +432,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -302,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
+				SDKROOT = "";
 			};
 			name = Release;
 		};
@@ -339,6 +495,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4FB9D5E5174DCEA600D970BF /* Build configuration list for PBXNativeTarget "SleepyNixieSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB9D5E3174DCEA600D970BF /* Debug */,
+				4FB9D5E4174DCEA600D970BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4FCD9296174B380A00FD4F36 /* Build configuration list for PBXProject "SleepyNixie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

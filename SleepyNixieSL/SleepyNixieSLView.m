@@ -1,14 +1,16 @@
 //
-//  SleepyNixieView.m
-//  SleepyNixie
+//  SleepyNixieSLView.m
+//  SleepyNixieSL
 //
-//  Created by sf71 on 2013-05-20.
+//  SL is SNOW LEOPARD, backported from Mountain Lion.
+//
+//  Created by sf71 on 2013-05-22.
 //  Copyright (c) 2013 g42.net (Broken Glass Entertainment). All rights reserved.
 //
 
-#import "SleepyNixieView.h"
+#import "SleepyNixieSLView.h"
 
-@implementation SleepyNixieView
+@implementation SleepyNixieSLView
 
 NSInteger sizeFactor = 3000;
 
@@ -36,7 +38,7 @@ NSInteger sizeFactor = 3000;
     [super drawRect:rect];
 }
 
-- (void) animateOneFrame
+- (void)animateOneFrame
 {
     NSSize size = [self bounds].size;
     
@@ -46,13 +48,13 @@ NSInteger sizeFactor = 3000;
     NSInteger x = (size.width - ((6 * numberWidth) + (9 * space))) / 2;
     NSInteger y = (size.height - numberHeight) / 2;
     NSInteger pos = 0;
-
+    
     NSDate* now = [NSDate date];
     NSInteger hour = [[now dateWithCalendarFormat:nil timeZone:nil] hourOfDay];
     NSInteger min = [[now dateWithCalendarFormat:nil timeZone:nil] minuteOfHour];
     NSInteger sec = [[now dateWithCalendarFormat:nil timeZone:nil] secondOfMinute];
     NSInteger imgTag = 0;
-
+    
     for (pos = 0; pos < 6; pos++) {
         switch (pos) {
             case 0:
@@ -80,16 +82,19 @@ NSInteger sizeFactor = 3000;
                 break;
         }
         
-        NSString *imageFileName = [[NSBundle bundleWithIdentifier:@"net.g42.SleepyNixie"]
+        NSString *imageFileName = [[NSBundle bundleWithIdentifier:@"net.g42.SleepyNixieSL"]
                                    pathForResource:[NSString stringWithFormat:@"nx-%ld", (long)imgTag] ofType:@"tiff"];
         NSImage *numberImage = [[NSImage alloc]initWithContentsOfFile:imageFileName];
         [numberImage setSize: NSMakeSize(numberWidth, numberHeight)];
-
+        
         NSRect rect = NSMakeRect(x, y, numberWidth, numberHeight);
         [numberImage drawInRect: rect
                        fromRect: NSZeroRect
                       operation: NSCompositeSourceOver
                        fraction: 1.0];
+
+        // Snow Leopard wants us to manually release our allocated vars.  (Mountain Lion doesn't)
+        [numberImage release];
     }
 }
 
