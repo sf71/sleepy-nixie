@@ -11,6 +11,16 @@
 		4FCD92A3174B380A00FD4F36 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD92A2174B380A00FD4F36 /* ScreenSaver.framework */; };
 		4FCD92AD174B380A00FD4F36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92AB174B380A00FD4F36 /* InfoPlist.strings */; };
 		4FCD92B1174B380A00FD4F36 /* SleepyNixieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCD92B0174B380A00FD4F36 /* SleepyNixieView.m */; };
+		4FCD92C1174B3F9E00FD4F36 /* nx-0.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92B7174B3F9E00FD4F36 /* nx-0.tiff */; };
+		4FCD92C2174B3F9E00FD4F36 /* nx-1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92B8174B3F9E00FD4F36 /* nx-1.tiff */; };
+		4FCD92C3174B3F9E00FD4F36 /* nx-2.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92B9174B3F9E00FD4F36 /* nx-2.tiff */; };
+		4FCD92C4174B3F9E00FD4F36 /* nx-3.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BA174B3F9E00FD4F36 /* nx-3.tiff */; };
+		4FCD92C5174B3F9E00FD4F36 /* nx-4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BB174B3F9E00FD4F36 /* nx-4.tiff */; };
+		4FCD92C6174B3F9E00FD4F36 /* nx-5.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BC174B3F9E00FD4F36 /* nx-5.tiff */; };
+		4FCD92C7174B3F9E00FD4F36 /* nx-6.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BD174B3F9E00FD4F36 /* nx-6.tiff */; };
+		4FCD92C8174B3F9E00FD4F36 /* nx-7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BE174B3F9E00FD4F36 /* nx-7.tiff */; };
+		4FCD92C9174B3F9E00FD4F36 /* nx-8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92BF174B3F9E00FD4F36 /* nx-8.tiff */; };
+		4FCD92CA174B3F9E00FD4F36 /* nx-9.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4FCD92C0174B3F9E00FD4F36 /* nx-9.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +35,16 @@
 		4FCD92AE174B380A00FD4F36 /* SleepyNixie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SleepyNixie-Prefix.pch"; sourceTree = "<group>"; };
 		4FCD92AF174B380A00FD4F36 /* SleepyNixieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepyNixieView.h; sourceTree = "<group>"; };
 		4FCD92B0174B380A00FD4F36 /* SleepyNixieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepyNixieView.m; sourceTree = "<group>"; };
+		4FCD92B7174B3F9E00FD4F36 /* nx-0.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-0.tiff"; sourceTree = "<group>"; };
+		4FCD92B8174B3F9E00FD4F36 /* nx-1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-1.tiff"; sourceTree = "<group>"; };
+		4FCD92B9174B3F9E00FD4F36 /* nx-2.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-2.tiff"; sourceTree = "<group>"; };
+		4FCD92BA174B3F9E00FD4F36 /* nx-3.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-3.tiff"; sourceTree = "<group>"; };
+		4FCD92BB174B3F9E00FD4F36 /* nx-4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-4.tiff"; sourceTree = "<group>"; };
+		4FCD92BC174B3F9E00FD4F36 /* nx-5.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-5.tiff"; sourceTree = "<group>"; };
+		4FCD92BD174B3F9E00FD4F36 /* nx-6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-6.tiff"; sourceTree = "<group>"; };
+		4FCD92BE174B3F9E00FD4F36 /* nx-7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-7.tiff"; sourceTree = "<group>"; };
+		4FCD92BF174B3F9E00FD4F36 /* nx-8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-8.tiff"; sourceTree = "<group>"; };
+		4FCD92C0174B3F9E00FD4F36 /* nx-9.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nx-9.tiff"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +102,7 @@
 			children = (
 				4FCD92AF174B380A00FD4F36 /* SleepyNixieView.h */,
 				4FCD92B0174B380A00FD4F36 /* SleepyNixieView.m */,
+				4FCD92CB174B400F00FD4F36 /* Images */,
 				4FCD92A9174B380A00FD4F36 /* Supporting Files */,
 			);
 			path = SleepyNixie;
@@ -95,6 +116,23 @@
 				4FCD92AE174B380A00FD4F36 /* SleepyNixie-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FCD92CB174B400F00FD4F36 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4FCD92B7174B3F9E00FD4F36 /* nx-0.tiff */,
+				4FCD92B8174B3F9E00FD4F36 /* nx-1.tiff */,
+				4FCD92B9174B3F9E00FD4F36 /* nx-2.tiff */,
+				4FCD92BA174B3F9E00FD4F36 /* nx-3.tiff */,
+				4FCD92BB174B3F9E00FD4F36 /* nx-4.tiff */,
+				4FCD92BC174B3F9E00FD4F36 /* nx-5.tiff */,
+				4FCD92BD174B3F9E00FD4F36 /* nx-6.tiff */,
+				4FCD92BE174B3F9E00FD4F36 /* nx-7.tiff */,
+				4FCD92BF174B3F9E00FD4F36 /* nx-8.tiff */,
+				4FCD92C0174B3F9E00FD4F36 /* nx-9.tiff */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +199,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FCD92AD174B380A00FD4F36 /* InfoPlist.strings in Resources */,
+				4FCD92C1174B3F9E00FD4F36 /* nx-0.tiff in Resources */,
+				4FCD92C2174B3F9E00FD4F36 /* nx-1.tiff in Resources */,
+				4FCD92C3174B3F9E00FD4F36 /* nx-2.tiff in Resources */,
+				4FCD92C4174B3F9E00FD4F36 /* nx-3.tiff in Resources */,
+				4FCD92C5174B3F9E00FD4F36 /* nx-4.tiff in Resources */,
+				4FCD92C6174B3F9E00FD4F36 /* nx-5.tiff in Resources */,
+				4FCD92C7174B3F9E00FD4F36 /* nx-6.tiff in Resources */,
+				4FCD92C8174B3F9E00FD4F36 /* nx-7.tiff in Resources */,
+				4FCD92C9174B3F9E00FD4F36 /* nx-8.tiff in Resources */,
+				4FCD92CA174B3F9E00FD4F36 /* nx-9.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +309,9 @@
 		4FCD92B5174B380A00FD4F36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SleepyNixie/SleepyNixie-Prefix.pch";
 				INFOPLIST_FILE = "SleepyNixie/SleepyNixie-Info.plist";
@@ -274,7 +324,9 @@
 		4FCD92B6174B380A00FD4F36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SleepyNixie/SleepyNixie-Prefix.pch";
 				INFOPLIST_FILE = "SleepyNixie/SleepyNixie-Info.plist";
@@ -303,6 +355,7 @@
 				4FCD92B6174B380A00FD4F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
