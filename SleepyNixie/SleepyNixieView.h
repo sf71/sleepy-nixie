@@ -2,8 +2,8 @@
 //  SleepyNixieView.h
 //  SleepyNixie
 //
-//  Created by sf71 on 2013-05-20.
-//  Copyright (c) 2013 g42.net (Broken Glass Entertainment). All rights reserved.
+//  Created by scott fraser on 2020-05-21.
+//  Copyright © 2020 g42.net. All rights reserved.
 //
 
 #import <ScreenSaver/ScreenSaver.h>
