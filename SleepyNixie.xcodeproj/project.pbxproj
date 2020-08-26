@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F6262A024738C0D005C748D /* nx-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629624738C0C005C748D /* nx-5.png */; };
+		4F6262A124738C0D005C748D /* nx-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629724738C0C005C748D /* nx-2.png */; };
+		4F6262A224738C0D005C748D /* nx-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629824738C0C005C748D /* nx-4.png */; };
+		4F6262A324738C0D005C748D /* nx-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629924738C0D005C748D /* nx-0.png */; };
+		4F6262A424738C0D005C748D /* nx-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629A24738C0D005C748D /* nx-3.png */; };
+		4F6262A524738C0D005C748D /* nx-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629B24738C0D005C748D /* nx-7.png */; };
+		4F6262A624738C0D005C748D /* nx-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629C24738C0D005C748D /* nx-6.png */; };
+		4F6262A724738C0D005C748D /* nx-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629D24738C0D005C748D /* nx-8.png */; };
+		4F6262A824738C0D005C748D /* nx-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629E24738C0D005C748D /* nx-9.png */; };
+		4F6262A924738C0D005C748D /* nx-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F62629F24738C0D005C748D /* nx-1.png */; };
 		4FB9D5D7174DCEA600D970BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD92A0174B380A00FD4F36 /* Cocoa.framework */; };
 		4FB9D5D8174DCEA600D970BF /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCD92A2174B380A00FD4F36 /* ScreenSaver.framework */; };
 		4FB9D5DE174DCEA600D970BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FB9D5DC174DCEA600D970BF /* InfoPlist.strings */; };
@@ -38,6 +48,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F62629624738C0C005C748D /* nx-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-5.png"; sourceTree = "<group>"; };
+		4F62629724738C0C005C748D /* nx-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-2.png"; sourceTree = "<group>"; };
+		4F62629824738C0C005C748D /* nx-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-4.png"; sourceTree = "<group>"; };
+		4F62629924738C0D005C748D /* nx-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-0.png"; sourceTree = "<group>"; };
+		4F62629A24738C0D005C748D /* nx-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-3.png"; sourceTree = "<group>"; };
+		4F62629B24738C0D005C748D /* nx-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-7.png"; sourceTree = "<group>"; };
+		4F62629C24738C0D005C748D /* nx-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-6.png"; sourceTree = "<group>"; };
+		4F62629D24738C0D005C748D /* nx-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-8.png"; sourceTree = "<group>"; };
+		4F62629E24738C0D005C748D /* nx-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-9.png"; sourceTree = "<group>"; };
+		4F62629F24738C0D005C748D /* nx-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nx-1.png"; sourceTree = "<group>"; };
 		4FB9D5D6174DCEA600D970BF /* SleepyNixieSL.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyNixieSL.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB9D5DB174DCEA600D970BF /* SleepyNixieSL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SleepyNixieSL-Info.plist"; sourceTree = "<group>"; };
 		4FB9D5DD174DCEA600D970BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -172,6 +192,16 @@
 		4FCD92CB174B400F00FD4F36 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4F62629924738C0D005C748D /* nx-0.png */,
+				4F62629F24738C0D005C748D /* nx-1.png */,
+				4F62629724738C0C005C748D /* nx-2.png */,
+				4F62629A24738C0D005C748D /* nx-3.png */,
+				4F62629824738C0C005C748D /* nx-4.png */,
+				4F62629624738C0C005C748D /* nx-5.png */,
+				4F62629C24738C0D005C748D /* nx-6.png */,
+				4F62629B24738C0D005C748D /* nx-7.png */,
+				4F62629D24738C0D005C748D /* nx-8.png */,
+				4F62629E24738C0D005C748D /* nx-9.png */,
 				4FCD92B7174B3F9E00FD4F36 /* nx-0.tiff */,
 				4FCD92B8174B3F9E00FD4F36 /* nx-1.tiff */,
 				4FCD92B9174B3F9E00FD4F36 /* nx-2.tiff */,
@@ -251,7 +281,7 @@
 		4FCD9293174B380A00FD4F36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "g42.net (Broken Glass Entertainment)";
 			};
 			buildConfigurationList = 4FCD9296174B380A00FD4F36 /* Build configuration list for PBXProject "SleepyNixie" */;
@@ -259,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 4FCD9292174B380A00FD4F36;
@@ -296,16 +327,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FCD92AD174B380A00FD4F36 /* InfoPlist.strings in Resources */,
+				4F6262A424738C0D005C748D /* nx-3.png in Resources */,
+				4F6262A624738C0D005C748D /* nx-6.png in Resources */,
 				4FCD92C1174B3F9E00FD4F36 /* nx-0.tiff in Resources */,
 				4FCD92C2174B3F9E00FD4F36 /* nx-1.tiff in Resources */,
 				4FCD92C3174B3F9E00FD4F36 /* nx-2.tiff in Resources */,
+				4F6262A224738C0D005C748D /* nx-4.png in Resources */,
 				4FCD92C4174B3F9E00FD4F36 /* nx-3.tiff in Resources */,
 				4FCD92C5174B3F9E00FD4F36 /* nx-4.tiff in Resources */,
 				4FCD92C6174B3F9E00FD4F36 /* nx-5.tiff in Resources */,
+				4F6262A524738C0D005C748D /* nx-7.png in Resources */,
+				4F6262A824738C0D005C748D /* nx-9.png in Resources */,
 				4FCD92C7174B3F9E00FD4F36 /* nx-6.tiff in Resources */,
+				4F6262A724738C0D005C748D /* nx-8.png in Resources */,
 				4FCD92C8174B3F9E00FD4F36 /* nx-7.tiff in Resources */,
 				4FCD92C9174B3F9E00FD4F36 /* nx-8.tiff in Resources */,
+				4F6262A324738C0D005C748D /* nx-0.png in Resources */,
 				4FCD92CA174B3F9E00FD4F36 /* nx-9.tiff in Resources */,
+				4F6262A124738C0D005C748D /* nx-2.png in Resources */,
+				4F6262A024738C0D005C748D /* nx-5.png in Resources */,
+				4F6262A924738C0D005C748D /* nx-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +513,9 @@
 				GCC_PREFIX_HEADER = "SleepyNixie/SleepyNixie-Prefix.pch";
 				INFOPLIST_FILE = "SleepyNixie/SleepyNixie-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = net.g42.SleepyNixie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -487,6 +531,9 @@
 				GCC_PREFIX_HEADER = "SleepyNixie/SleepyNixie-Prefix.pch";
 				INFOPLIST_FILE = "SleepyNixie/SleepyNixie-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = net.g42.SleepyNixie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -502,6 +549,7 @@
 				4FB9D5E4174DCEA600D970BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FCD9296174B380A00FD4F36 /* Build configuration list for PBXProject "SleepyNixie" */ = {
 			isa = XCConfigurationList;

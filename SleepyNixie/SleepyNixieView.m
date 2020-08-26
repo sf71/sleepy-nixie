@@ -48,9 +48,16 @@ NSInteger sizeFactor = 3000;
     NSInteger pos = 0;
 
     NSDate* now = [NSDate date];
-    NSInteger hour = [[now dateWithCalendarFormat:nil timeZone:nil] hourOfDay];
-    NSInteger min = [[now dateWithCalendarFormat:nil timeZone:nil] minuteOfHour];
-    NSInteger sec = [[now dateWithCalendarFormat:nil timeZone:nil] secondOfMinute];
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSDateComponents *components = [calendar components:NSCalendarUnitHour fromDate:now];
+
+    NSInteger hour = [components hour];
+    NSInteger min = [components minute];
+    NSInteger sec = [components second];
+//    NSInteger hour = [[now dateWithCalendarFormat:nil timeZone:nil] -[NSCalendar component:fromDate:]];
+//    NSInteger min = [[now dateWithCalendarFormat:nil timeZone:nil] -[NSCalendar component:fromDate:]];
+//    NSInteger sec = [[now dateWithCalendarFormat:nil timeZone:nil] -[NSCalendar component:fromDate:]];
+
     NSInteger imgTag = 0;
 
     for (pos = 0; pos < 6; pos++) {
@@ -81,14 +88,14 @@ NSInteger sizeFactor = 3000;
         }
         
         NSString *imageFileName = [[NSBundle bundleWithIdentifier:@"net.g42.SleepyNixie"]
-                                   pathForResource:[NSString stringWithFormat:@"nx-%ld", (long)imgTag] ofType:@"tiff"];
+                                   pathForResource:[NSString stringWithFormat:@"nx-%ld", (long)imgTag] ofType:@"png"];
         NSImage *numberImage = [[NSImage alloc]initWithContentsOfFile:imageFileName];
         [numberImage setSize: NSMakeSize(numberWidth, numberHeight)];
 
         NSRect rect = NSMakeRect(x, y, numberWidth, numberHeight);
         [numberImage drawInRect: rect
                        fromRect: NSZeroRect
-                      operation: NSCompositeSourceOver
+                      operation: NSCompositingOperationSourceOver
                        fraction: 1.0];
     }
 }
